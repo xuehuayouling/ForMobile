@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+      <Resource name="CONN_POOL" auth="Container" 
+      type="javax.sql.DataSource"
+      driverClassName="com.mysql.jdbc.Driver"
+      url="jdbc:mysql://123.57.167.195:3306/forios"
+      username="root"
+      password="5572530"
+      maxActive="50"
+      maxIdle="30"
+      maxWait="10000" />
+</Context>
