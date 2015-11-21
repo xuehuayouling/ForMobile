@@ -107,8 +107,8 @@
 				<Context docBase="ForMobile" path="/ForMobile" reloadable="true"
 					source="org.eclipse.jst.jee.server:ForMobile">
 					<Resource name="CONN_POOL" auth="Container" type="javax.sql.DataSource"
-						driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://123.57.167.195:3306/forios"
-						username="root" password="5572530" maxActive="50" maxIdle="30"
+						driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://123.57.167.195:3306/forios?autoReconnect=true&amp;failOverReadOnly=false"
+						username="root" password="5572530" maxActive="50" maxIdle="30" 
 						maxWait="10000" />
 				</Context>
 			</Host>
